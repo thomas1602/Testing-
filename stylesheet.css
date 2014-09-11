@@ -1,0 +1,297 @@
+<style>
+
+
+
+
+#streamyourmusic {
+
+
+top: 10px;
+left: 140px;  
+
+
+}
+
+
+#tab {
+
+position: absolute;
+top: 120px;
+left: -31px; 
+
+
+}
+
+#tab ul {
+
+width:130px;
+
+
+}
+
+
+#tab ul li:hover {
+
+background-color: rgb(176, 188, 188);
+
+
+}
+
+#tab ul li  {
+
+
+padding-left: 10px ;
+position: relative;
+list-style: none;
+line-height: 24px;
+cursor: pointer;
+font-family:  'Open Sans',sans-serif ;
+font-size: 14px; 
+color: rgb(117, 115, 115);
+
+}
+
+
+/* 100% WIDTH NAVIGTION STARTS HERE */     
+
+
+#nav {
+	width: 100%;
+	float: left;
+	
+
+	background-color: #23252a; 
+	border-bottom: 1px solid #ccc;
+
+}
+
+
+#nav ul {
+	list-style: none;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0px; 
+	left: -200px; 
+	position: relative;
+}
+
+#nav li {
+	float: left; 
+	font-family: 'Open Sans',sans-serif ;
+
+}
+
+
+	#nav li a {
+
+	display: block;
+	padding: 15px 20px;
+	text-decoration: none;
+	
+	color: white;
+	border-right: 1px solid black; 
+
+
+
+}
+
+
+
+
+#nav li:first-child a {
+
+	border-left: 1px solid black; }
+
+
+#nav li:nth-child(3) a {
+
+	border-left: 1px solid black; }
+
+
+
+#nav li a:hover {
+
+	background-color: black; }
+
+	.account  {
+
+
+		position: relative;
+		right: -600px;
+
+}
+
+/* 100% WIDTH NAVIGTION ENDS HERE */ 
+
+
+/* ABOUT LOOPCAST BOX STARTS HERE */ 
+
+
+.rectangle {
+  border: none;
+  position: relative;
+  left: 170px;
+  top: 70px;  
+
+}
+.rectangle.rectangle-1 {
+  background: #ffffff;
+  -moz-box-shadow: 0px 1px 2px 0px #b8b3b3;
+  -webkit-box-shadow: 0px 1px 2px 0px #b8b3b3;
+  -o-box-shadow: 0px 1px 2px 0px #b8b3b3;
+  box-shadow: 0px 1px 2px 0px #b8b3b3;
+  border-radius: 4px;
+  width: 1064px;
+  height: 940px;
+}
+.rectangle.rectangle-1 .dom-heading {
+  font-family:"open sans";
+  position: absolute;
+
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-1 {
+  color: #6e6969;
+  width: 300px;
+  font-size: 28px;
+  top: 5px; 
+  position: absolute;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-2 {
+  height: 42px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-3 {
+  color: #777676;
+  font-size: 14px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-4 {
+  font-weight: normal;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-5 {
+  color: #53a0b3;
+  font-size: 20px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-6 {
+  text-align: center;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-7 {
+  line-height: 24px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-8 {
+  top: 14px;
+  left: 37px;
+}
+.rectangle.rectangle-1 .rectangle {
+  background: #e3e0e0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0px;
+  width: 1065px;
+  height: 1px;
+  position: absolute;
+  top: 63px;
+  left: 0px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-3.dom-heading-4.dom-heading-9 {
+  line-height: 35px;
+  width: 741px;
+  height: 133px;
+  top: 96px;
+  left: 31px;
+}
+.rectangle.rectangle-1 .image {
+  position: absolute;
+}
+.rectangle.rectangle-1 .image.image-1 {
+  width: 215px;
+  height: 215px;
+  top: 248px;
+  left: 699px;
+}
+.rectangle.rectangle-1 .image.image-2 {
+  width: 264px;
+  height: 221px;
+  top: 249px;
+  left: 46px;
+}
+.rectangle.rectangle-1 .image.image-3 {
+  width: 209px;
+  height: 209px;
+  top: 250px;
+  left: 390px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-4.dom-heading-5.dom-heading-6.dom-heading-10 {
+  width: 254px;
+  height: 91px;
+  top: 472px;
+  left: 45px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-4.dom-heading-5.dom-heading-6.dom-heading-11 {
+  width: 247px;
+  height: 74px;
+  top: 473px;
+  left: 687px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-2.dom-heading-4.dom-heading-5.dom-heading-6 {
+  width: 210px;
+  top: 476px;
+  left: 380px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-3.dom-heading-4.dom-heading-6.dom-heading-7.dom-heading-12 {
+  width: 234px;
+  height: 170px;
+  top: 569px;
+  left: 697px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-3.dom-heading-4.dom-heading-6.dom-heading-7.dom-heading-13 {
+  width: 221px;
+  height: 122px;
+  top: 570px;
+  left: 62px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-3.dom-heading-4.dom-heading-6.dom-heading-7.dom-heading-14 {
+  width: 248px;
+  height: 163px;
+  top: 571px;
+  left: 377px;
+}
+.rectangle.rectangle-1 .dom-heading.dom-heading-1.dom-heading-2.dom-heading-15 {
+  top: 797px;
+  left: 426px;
+}
+.rectangle.rectangle-1 .btn {
+  background: #4592d4;
+  background-image: -moz-linear-gradient(270deg, #4592d4 100%, #e6e6e6 100%);
+  background-image: -webkit-linear-gradient(270deg, #4592d4 100%, #e6e6e6 100%);
+  background-image: -o-linear-gradient(270deg, #4592d4 100%, #e6e6e6 100%);
+  background-image: linear-gradient(180deg, #4592d4 100%, #e6e6e6 100%);
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  font-family:"open sans";
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 0px;
+  width: 403px;
+  height: 45px;
+  position: absolute;
+  top: 851px;
+  left: 316px;
+}
+
+
+
+
+img {
+
+position: relative;
+left: 25%;
+top: 20%;
+
+}
+
+</style>
