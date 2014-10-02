@@ -257,8 +257,9 @@ color: rgb(117, 115, 115);
   left: 377px;
 }
 .rectangle.rectangle-1 .dom-heading.dom-heading-1.dom-heading-2.dom-heading-15 {
-  top: 797px;
+  top: 777px;
   left: 426px;
+  position: absolute;
 }
 .rectangle.rectangle-1 .btn {
   background: #4592d4;
@@ -272,15 +273,25 @@ color: rgb(117, 115, 115);
   box-shadow: none;
   text-shadow: none;
   font-family:"open sans";
-  font-weight: bold;
+  font-weight: ;
   color: #ffffff;
   border: none;
-  border-radius: 0px;
+  border-radius: 4px;
   width: 403px;
   height: 45px;
   position: absolute;
   top: 851px;
   left: 316px;
+  font-size: 15px; 
+  cursor: pointer;
+
+}
+
+.btn:hover{
+
+
+opacity: 0.9;
+
 }
 
 
