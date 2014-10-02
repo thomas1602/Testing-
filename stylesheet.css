@@ -17,7 +17,8 @@ left: 140px;
 
 position: absolute;
 top: 120px;
-left: -31px; 
+left: -31px;
+
 
 
 }
@@ -48,6 +49,7 @@ cursor: pointer;
 font-family:  'Open Sans',sans-serif ;
 font-size: 14px; 
 color: rgb(117, 115, 115);
+text-decoration: none;
 
 }
 
@@ -58,6 +60,7 @@ color: rgb(117, 115, 115);
 #nav {
 	width: 100%;
 	float: left;
+  position: relative;
 	
 
 	background-color: #23252a; 
@@ -94,6 +97,9 @@ color: rgb(117, 115, 115);
 
 
 }
+
+
+
 
 
 
